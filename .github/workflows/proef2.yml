@@ -1,0 +1,12 @@
+name: proef2
+
+on: workflow_dispatch
+
+jobs:
+  proefpe:
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Proef Pe"
+        run: |
+          echo "Hogeschool PXL"
+          touch 12501651.txt
